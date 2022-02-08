@@ -1,0 +1,237 @@
+
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+  text-align: center;
+}
+.container{
+    max-width: 1600px;
+}
+.nav-bar{
+    color: #000;
+    background-color: #fff;
+    
+}
+.menu{
+    
+    background-color: #fff;
+    width: 100%; 
+    height: 42px;
+    box-sizing: inherit;
+    padding: 8px 16px inherit;
+    box-shadow: 0 2px 5px 0 rgb( 0 0 0/ 16%) ;
+    position: fixed;
+    z-index: 1;
+}
+.menu a{
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 4px;
+    font-size: 20px;
+    line-height: 26px;
+}
+.menu ul{
+    display: inline-block;
+    margin: 0;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+.left{
+    float: left;
+    padding: 8px 16px;
+}
+ul{
+    float: right;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+ .img{
+    position: relative;
+}
+
+
+
+.le{
+    padding: 12px 24px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0.6;
+}
+.cotent{
+    box-sizing: inherit;
+    max-width: 1100px;
+    margin: 0 auto;
+    
+    
+}
+.row{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+}
+.rasm{
+    width: 49.9%;
+    padding: 12px 24px;
+    display: inline-block;
+}
+.text{
+    width: 49.9%;
+    padding: 12px 24px;
+    display: inline-block;
+    
+}
+h1{
+    font-weight: 400;
+    font-size: 46px;
+    padding: 12px 24px;
+    
+}
+h2{
+    font-weight: 400;
+    font-size: 46px; 
+}
+
+.text1 p{
+    font-size: 18px;
+    width: 90%;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    margin: 40px 0;
+}
+span{
+    background-color: rgb(235, 228, 228);
+    padding: 3px 6px 5px 6px;
+}
+hr{
+    max-width: 1200px;
+}
+.text2 h4, p{
+    text-align: left;
+}
+.section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 64px 16px;
+    width: 90%;
+
+}
+.section p{
+    width: 90%;
+    font-size: 18px;
+}
+.section b{
+    color: #607d8b;
+    font-size: 18px;
+}
+.section h2{
+    text-align:start;
+}
+input{
+    display: block;
+    padding: 20px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(233, 227, 227);
+    border: none;
+    margin-top: 30px;
+}
+footer{
+    padding: 32px;
+    width: 100%;
+    background-color: rgb(233, 227, 227) ;
+}
+footer p{
+    text-align: center;
+}
+footer a{
+    color: #000;
+}
+
+@media screen and (max-width:1250px){
+    img{
+        width: 110%;
+        height: auto;
+    }
+    .row{
+        width: 100%;
+    }
+    .rasm img{
+        width: 100%;
+        margin-left: 50px;
+    }
+    .text{
+        width: 49%;
+        margin-left: 20px;
+    }
+    h1{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width:960px){
+    h1{
+        font-size: 32px;
+    }
+    ul li a{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width:720px){
+    ul li a{
+        padding: 8px 8px;
+    }
+    .menu ul li{
+        padding: 8px 0px;
+    }
+   .row{
+       flex-direction: column;
+   }
+   .rasm{
+       width: 90%;
+       margin-left: 20px;
+       padding: 0;
+   }
+   .text{
+       width: 90%;
+       margin: 0 20px;
+   }
+   .section{
+       margin-left: 20px;
+   }
+}
+@media screen and (max-width:640px){
+    ul li a{
+        padding: 8px 3px;
+        letter-spacing: 0;
+    }
+   .menu ul li {
+        padding: 8px 0px;
+    }
+}
+@media screen and (max-width:600px){
+    .menu ul {
+        display: none;
+    }
+}
